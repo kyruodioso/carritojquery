@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evaluación 8</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="./js/main.js"></script>
+
+</head>
+
+<body id="body">
+  <header id="inicio">
+    <div class="navbar-fixed fixed-top">
+      <nav>
+        <div class="nav-wrapper purple lighten-3">
+          <ul class="right">
+            <li><a href="#" class="ancla" id="ancla-inicio" data-ancla="inicio">Inicio</a></li>
+            <li><a href="#" class="ancla" id="ancla-productos" data-ancla="productos">Productos</a></li>
+            <li><a href="#" class="ancla" id="ancla-nosotros" data-ancla="conclusion">Nosotros</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+        <!--Productos del carrito-->
+
+        <div class="productos-carrito">
+          <div class="row">
+            <div class="col s6 offset-s6">
+              <div class="card">
+                <ul class="collection" >
+                  <li class="collection-header"><button class="btn waves-effect waves-light grey darken-3" id="close-cart"><i class="material-icons">send</i></button>
+                  </li>
+                     <!--productos del carrito-->
+                     <div id="productosCarrito"></div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <img src="./img/header-cosmetic.jpg" alt="imagen de ropa" class="responsive-img" id="principal-img">
+  <div class="container center" id="productos">
+    <div class="productos-contenido">
+      <h2>Productos</h2>
+    <!--carrito-->
+    <div class="carrito-container">
+
+
+
+        <button class="carrito-bottom carrito btn-floating btn-medium waves-effect waves-light red">
+          <i class="material-icons">shopping_cart</i></button>
+ 
+      </div>
+      <div class="row">
+
+        <div id="imagenes"></div>
+
+      </div>
+            <!--modal-->
+            <div class="col s12 m6 modal">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Card Title</span>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          <!--fin modal-->
+    </div>
+  </div>
+
+
+  <footer class="page-footer purple lighten-3">
+    <div class="container center">
+      © 2021 Copyright By kyru
+      <a class="grey-text text-lighten-4 right" href="https://www.desarrollandoweb.tech"> />></a>
+    </div>
+  </footer>
+</body>
+
+</html>

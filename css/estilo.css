@@ -1,0 +1,80 @@
+html,
+body {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+#principal-img {
+	display: none;
+	min-height: 80vh;
+	max-width: 100%;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius: 0 20px;
+}
+
+
+.carrito-container {
+	position: fixed;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	z-index: 100;
+}
+
+.carrito-bottom {
+	box-shadow: 2px 2px 3px rgb(61, 61, 61);
+}
+
+.productos-carrito{
+  display: none;
+  margin-top: 4em;
+  width: 100%;
+  z-index: 99999 !important;
+}
+
+.productos-contenido{
+	margin-top: 6em;
+}
+
+.cosmetic-img {
+	max-height: 12em;
+	min-height: 12em;
+}
+
+div.card-content {
+	height: 12em;
+}
+
+.p-envio {
+	color: rgb(39, 209, 39);
+}
+
+.cosmetic-name {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	margin-top: 2em;
+}
+
+.page-footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+}
