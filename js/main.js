@@ -38,7 +38,8 @@ function trayendoJson() {
        <div class="col 16 m3 s12">
        <div class="card">
        <div class="card-image">
-       <img src="${cosmetic.image_link}" class="responsive-img z-depth-3 cosmetic-img" onerror="this.onerror=null;this.src='../img/errorImage.svg';"/>
+       
+       <img src="${cosmetic.image_link}" class="responsive-img z-depth-3 cosmetic-img" onerror="this.onerror=null;this.src='https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Crying-Baby-Page.png';"/>
        <div class="card-content">
        <h5 class="cosmetic-name">${cosmetic.name}</h5>
        <p>${cosmetic.category}</p>
