@@ -24,7 +24,9 @@ h1 {
 	border-radius: 0 20px;
 }
 
-
+#cargando{
+	margin-bottom:4em;
+}
 .carrito-container {
 	position: fixed;
 	height: 60px;
@@ -77,4 +79,5 @@ div.card-content {
 	position: fixed;
 	bottom:0;
 	width: 100%;
+	z-index: 99999 !important;
 }

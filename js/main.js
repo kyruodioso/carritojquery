@@ -12,11 +12,8 @@ let productoCart = 'productoid';
 
 function navegandoEnLaPagina() {
     $(".ancla").click(function (e) {
-        //Anulamos la funcionalidad por defecto del evento
         e.preventDefault();
-        //Creamos el string del enlace ancla
         var codigo = "#" + $(this).data("ancla");
-        //Funcionalidad de scroll lento para el enlace ancla en 3 segundos
         $("html,body").animate({
             scrollTop: $(codigo).offset().top
         }, 3000);
@@ -25,6 +22,8 @@ function navegandoEnLaPagina() {
 
 
 function trayendoJson() {
+
+     
 
     return $.ajax({
         url: 'https://makeup-api.herokuapp.com/api/v1/products.json',
@@ -55,10 +54,12 @@ function trayendoJson() {
        </div>
        </div>
        </div>
-       `
-                $('#imagenes').append(productoRender);
+       `         
+                $('#cargando').fadeOut(500);
+                $('#imagenes').fadeIn(500).append(productoRender);
 
             });
+
         },
         error: function (xhr, status) {
             document.innerHTML = "Error de conexion";
