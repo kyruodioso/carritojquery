@@ -39,7 +39,7 @@ function trayendoJson() {
        <div class="card">
        <div class="card-image">
        
-       <img src="${cosmetic.image_link}" class="responsive-img z-depth-3 cosmetic-img" onerror="this.onerror=null;this.src='https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Crying-Baby-Page.png';"/>
+       <img src="${cosmetic.image_link}" class="responsive-img z-depth-3 cosmetic-img" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/1338/0845/collections/blottedlip-lippie-stix_grande.jpg?v=1512588803';"/>
        <div class="card-content">
        <h5 class="cosmetic-name">${cosmetic.name}</h5>
        <p>${cosmetic.category}</p>
